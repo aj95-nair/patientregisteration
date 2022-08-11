@@ -9,8 +9,7 @@ const CORS = require('cors')
 const router = express.Router();
 
 mongoose.connect(
-  "mongodb+srv://admin:admin@hospital-management.xkqgfiw.mongodb.net/?retryWrites=true&w=majority"
-  //"mongodb://35.202.7.81:27017/hospital"
+  "mongodb://35.202.7.81:27017/hospital",
 );
 
 const db = mongoose.connection;
